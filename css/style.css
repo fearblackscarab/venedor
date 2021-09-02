@@ -1,3 +1,7 @@
+:root{
+    --primary:#14bfcc;
+}
+
 /* default icon stuff*/
 .icon {
     display: inline-block;
@@ -13,3 +17,138 @@
 }
 /* end default icon stuff*/
 
+/* header */
+/* section1 */
+
+.header .section1{
+    border-top: 4px solid var(--primary) ;
+    padding-bottom: 10px;
+}
+
+.top-nav{
+    margin: 0 auto;
+    background-color: lightgrey;
+}
+
+.top-nav-item{
+    display: flex;
+    margin: 0 auto;
+    margin-left: 5px;
+    margin-bottom: 10px;
+}
+
+.top-nav-item .icon{
+    margin: 0;
+    margin-top: 5px;
+    font-size: 18px;
+}
+
+.top-nav-link{
+    padding: 0;
+    margin: 0;
+    color: grey;
+    margin-left: 5px;
+    font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+}
+
+.login-text{
+    margin: 0 auto;
+    margin-top: 5px;
+}
+
+/* end section1 */
+/* section2 */
+
+.logo{
+    margin: 0;
+    margin-bottom: 20px;
+    padding: 0;
+    font-family: 'Roboto Slab', serif;
+    font-size: calc(35px + (50 - 35) * ((100vw - 300px) / (1600 - 300)));
+}
+
+.fancy{
+    margin: 0;
+    margin-right: -3px;
+    padding: 2px;
+    border-radius: 50%;
+    background-color: var(--primary);
+}
+
+.dot-image{
+    margin: 0;
+    padding: 0;
+    margin-left: -8px;
+    margin-bottom: -10px;
+    width: 8px;
+    height: 8px;
+}
+/* end section2 */
+/* section3 */
+
+.catagory-nav{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.catagory-item{
+    color: black;
+}
+
+.search-div{
+    margin-bottom: 20px;
+}
+
+.home-search{
+    margin: 0;
+    padding: 0;
+}
+
+.search-button{
+    height: 28px;
+    width:28px;
+    padding: 0;
+    background-color: lightgrey;
+    border-radius: 0;
+}
+
+.icon-search{
+    color: grey;
+    font-size: 13px;
+}
+
+/* end section3 */
+/* end header */
+
+/* main */
+/* section1 */
+
+
+
+/* end section1 */
+/* section2 */
+
+.middle-banners{
+    margin: 15px;
+}
+
+/* end section2 */
+/* section3 */
+
+.products-title-1{
+    padding-left: 5px;
+    border-left: 4px solid var(--primary);
+}
+
+.latest-button{
+    margin: 0;
+    padding: 5px 15px;
+    background-color: #fafafa;
+    border: 1px solid darkgrey;
+}
+
+/* end section3 */
+/* section4 */
+/* end section4 */
+/* section5 */
+/* end section5 */
