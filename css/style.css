@@ -92,6 +92,9 @@
 }
 
 .catagory-item{
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
     color: black;
 }
 
@@ -136,19 +139,158 @@
 /* section3 */
 
 .products-title-1{
+    margin: 0;
+    padding: 0;
     padding-left: 5px;
     border-left: 4px solid var(--primary);
 }
 
-.latest-button{
+.dash-div{
     margin: 0;
+    padding: 0;
+    margin-bottom: 18px;
+    border-bottom: 1px solid darkgray;
+}
+
+.product-button{
+    margin: 0;
+    padding: 0;
     padding: 5px 15px;
+    border-radius: 0;
     background-color: #fafafa;
     border: 1px solid darkgrey;
 }
 
+.main .block{
+    margin: 0 auto;
+}
+
+.product-text{
+    text-align: center;
+}
+
+.add-to-cart{
+    display: block;
+    margin: 0 auto;
+}
+
 /* end section3 */
 /* section4 */
+
+.welcome-title,.welcome-text{
+    text-align: center;
+}
+
+.welcome-content{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.display-img{
+    margin-bottom: 25px;
+}
+
 /* end section4 */
 /* section5 */
+
+.products-title-2{
+    margin: 0;
+    padding: 0;
+    margin-right: 10px;
+}
+
+.section5 .block4{
+    margin-bottom: 25px;
+}
+
 /* end section5 */
+/* section6 */
+
+.brands-title{
+    margin: 0;
+    margin-bottom: 10px;
+    padding: 0;
+}
+
+.brand-img{
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+/* end section6 */
+/* end main */
+
+/* footer */
+/* section1 */
+
+.footer .section1{
+    font-family: 'Roboto', sans-serif;
+    background-color: darkgray;
+}
+
+.newsletter-text{
+    margin: 0;
+    padding: 0;
+    margin: 25px 0;
+}
+
+.newsletter-email{
+    margin: 25px 0;
+    padding: 5px;
+    border-radius: 8%;
+    border: 4px solid yellow;
+}
+/* end section1 */
+/* section2 */
+
+.footer .section2,.footer .section3{
+    background-color: #434b4d;
+}
+
+.footer .section2{
+    border-bottom: 1px solid #37383a;
+    color: #a9b1b1;
+}
+
+.section2-content{
+    text-align: center;
+}
+
+.footer-title{
+    color: white;
+}
+
+.account-list,.info-list{
+    list-style-image: url(../media/footer-menu-list-type@2x.png);
+}
+
+.bot-link{
+    color: #a9b1b1;
+}
+
+.time{
+    color: #848686;
+}
+
+.facebook .block{
+    padding: 0;
+}
+
+/* end section2 */
+/* section3 */
+
+.footer .section3{
+    border-top: 1px solid #535758;
+}
+
+.social-icons{
+    margin: 0 auto;
+}
+
+.colophon-div{
+    margin: 0 auto;
+}
+
+/* end section3 */
+/* end footer */
+/* fin */
