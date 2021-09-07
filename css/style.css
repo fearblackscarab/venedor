@@ -320,7 +320,9 @@
 }
 
 .section2-content{
-    text-align: center;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 40px;
 }
 
 .footer-title{
@@ -339,18 +341,39 @@
 
 .bot-link{
     color: #a9b1b1;
+    font-size: calc(14px + (25 - 14) * ((100vw - 300px) / (1600 - 300)));
+    line-height: 2;
 }
 
 .time{
     color: #848686;
 }
 
+.facebook-header{
+    margin: 0;
+}
+
+.facebook-profiles{
+    margin: 0;
+}
+
 .facebook .block{
+    margin: 0;
     padding: 0;
 }
 
 .facebook-name{
+    margin: 0;
+    margin-bottom: 10px;
+    padding: 0;
     text-transform: capitalize;
+}
+
+@media(max-width:575px){
+    .profile-picture{
+        width: 70px;
+        height: 70px;
+    }
 }
 
 @media(max-width:767px){
